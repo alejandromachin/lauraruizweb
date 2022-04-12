@@ -1,9 +1,15 @@
+import { Link } from "react-router-dom";
+
 const Navigation = () => {
   return (
     <>
       <ul>
-        <li>Gallery</li>
-        <li>List</li>
+        <li>
+          <Link to={""}>Gallery</Link>
+        </li>
+        <li>
+          <Link to={""}>List</Link>
+        </li>
       </ul>
     </>
   );
