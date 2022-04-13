@@ -29,7 +29,7 @@ const ProjectsDisplay = () => {
         scale={[4, height, 1]}
         url="/images/12_octubre.webp"
       />
-      <Image position={[2, 0, 1]} scale={3} url="/images/colacao.webp" />
+      <Image position={[2, 0, 1]} scale={3} url="images/colacao.webp" />
       <Image
         position={[-2.3, -height, 2]}
         scale={[1, 3, 1]}
