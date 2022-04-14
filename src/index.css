@@ -40,7 +40,7 @@ a:active {
 .navigation {
   display: flex;
   flex-direction: row;
-  width: 25vw;
+  width: 30vw;
   gap: 10px;
 }
 
