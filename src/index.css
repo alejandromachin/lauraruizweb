@@ -42,3 +42,19 @@ a:active {
 .currentPage {
   border-bottom: 2px solid #000;
 }
+
+.staticContainer {
+  display: flex;
+  flex-direction: column;
+}
+.dinamicContainer {
+  width: 70vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
