@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "@fontsource/inter";
 import "@fontsource/inter/300.css";
+import "@fontsource/inter/200.css";
 
 ReactDOM.render(
   <React.StrictMode>

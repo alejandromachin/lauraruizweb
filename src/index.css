@@ -62,7 +62,9 @@ a:active {
 .infoCard-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
+
 .infoCard-container__title {
   width: 200px;
   height: auto;
@@ -73,6 +75,20 @@ a:active {
   line-height: 100px;
   text-align: left;
   letter-spacing: -5.5px;
+
+  margin: 0px;
+  padding-left: 10px;
 }
 .infoCard-container__text {
+  margin: 0px;
+  width: 300px;
+  height: auto;
+  font-weight: 200;
+  font-size: 28px;
+  font-style: normal;
+  letter-spacing: -0.9px;
+  text-align: left;
+
+  padding-left: 20px;
+  line-height: 32px;
 }
