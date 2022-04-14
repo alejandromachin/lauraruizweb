@@ -6,13 +6,17 @@ import ProjectList from "./pages/ProjectList/ProjectList";
 
 function App() {
   return (
-    <div>
-      <Navigation />
-      <InfoCard />
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/projectlist" element={<ProjectList />} />
-      </Routes>
+    <div className="container">
+      <div className="staticContainer">
+        <Navigation />
+        <InfoCard />
+      </div>
+      <div className="dinamicContainer">
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/projectlist" element={<ProjectList />} />
+        </Routes>
+      </div>
     </div>
   );
 }
