@@ -58,3 +58,21 @@ a:active {
   display: flex;
   flex-direction: row;
 }
+
+.infoCard-container {
+  display: flex;
+  flex-direction: column;
+}
+.infoCard-container__title {
+  width: 200px;
+  height: auto;
+  font-size: 106px;
+  font-weight: 300;
+  color: rgba(34, 34, 34, 1);
+  font-style: normal;
+  line-height: 100px;
+  text-align: left;
+  letter-spacing: -5.5px;
+}
+.infoCard-container__text {
+}
