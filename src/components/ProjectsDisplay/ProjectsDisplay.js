@@ -22,6 +22,7 @@ const ProjectsDisplay = () => {
     group.current.children[6].material.zoom =
       1 + (1 - data.range(2 / 3, 1 / 3)) / 3;
   });
+
   return (
     <group ref={group}>
       <Image
@@ -54,6 +55,16 @@ const ProjectsDisplay = () => {
         position={[0, -height * 2 - height / 4, 0]}
         scale={[width, height / 2, 1]}
         url="/images/light_free.webp"
+      />
+      <Image
+        position={[0, -20, 0]}
+        scale={[width, height / 2, 1]}
+        url="/images/mo_aitana.webp"
+      />
+      <Image
+        position={[0, -height * 3, 0]}
+        scale={[width, height / 2, 1]}
+        url="/images/live_more_now.webp"
       />
     </group>
   );
