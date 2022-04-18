@@ -27,41 +27,52 @@ const ProjectsDisplay = () => {
     <group ref={group}>
       <Image
         position={[-2, 0, 0]}
-        scale={[4, height, 1]}
+        scale={[5, 2.5, 1]}
         url="/images/12_octubre.webp"
       />
-      <Image position={[2, 0, 1]} scale={3} url="images/colacao.webp" />
+
       <Image
-        position={[-2.3, -height, 2]}
-        scale={[1, 3, 1]}
+        className="projectDisplay__image"
+        position={[2, 0, 1]}
+        scale={3}
+        url="images/colacao.webp"
+      />
+      <Image
+        className="projectDisplay__image"
+        position={[-2.3, -2, 2]}
+        scale={[2, 1, 0]}
         url="/images/digues_el_que_penses.webp"
       />
       <Image
-        position={[-0.6, -height, 3]}
-        scale={[1, 2, 1]}
+        className="projectDisplay__image"
+        position={[0, -2.5, 3]}
+        scale={[2, 1, 1]}
         url="/images/el_verano_que_merecemos.webp"
       />
       <Image
-        position={[0.75, -height, 3.5]}
-        scale={1.5}
+        className="projectDisplay__image"
+        position={[0.75, -4, 3.5]}
+        scale={[1.5, 1, 0]}
         url="/images/fotocasa.webp"
       />
       <Image
-        position={[0, -height * 1.5, 2.5]}
-        scale={[1.5, 3, 1]}
+        position={[0, -6, 2.5]}
+        scale={[3, 1.5, 1]}
         url="/images/injubilables.webp"
       />
       <Image
-        position={[0, -height * 2 - height / 4, 0]}
+        className="projectDisplay__image"
+        position={[0, -8, 0]}
         scale={[width, height / 2, 1]}
         url="/images/light_free.webp"
       />
       <Image
-        position={[0, -20, 0]}
-        scale={[width, height / 2, 1]}
+        position={[2, -12, 0]}
+        scale={[5, height / 2, 1]}
         url="/images/mo_aitana.webp"
       />
       <Image
+        className="projectDisplay__image"
         position={[0, -height * 3, 0]}
         scale={[width, height / 2, 1]}
         url="/images/live_more_now.webp"
