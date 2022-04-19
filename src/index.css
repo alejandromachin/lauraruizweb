@@ -101,3 +101,32 @@ a:active {
   border: 1px solid black;
   border-radius: 10px;
 }
+
+.lax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+}
+
+.lax-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.lax-front {
+  background: url("https://placekitten.com/200/200") center center no-repeat;
+  transform: translateZ(0);
+}
+
+.lax-back {
+  background: url("https://placekitten.com/400/300") center center no-repeat;
+  transform: translateZ(-1px) scale(2);
+}
+
+.lax-box {
+  padding: 100em 0;
+}

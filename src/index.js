@@ -7,11 +7,14 @@ import { BrowserRouter } from "react-router-dom";
 import "@fontsource/inter";
 import "@fontsource/inter/300.css";
 import "@fontsource/inter/200.css";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <ParallaxProvider>
+        <App />
+      </ParallaxProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
