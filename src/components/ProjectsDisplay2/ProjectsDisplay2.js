@@ -1,20 +1,19 @@
 const ProjectsDisplay2 = () => {
   return (
-    <div class="lax">
-      <img class="lax-box lax-1" src="/images/12_octubre.webp" alt="" />
-      <img class="lax-box lax-2" src="images/colacao.webp" alt="" />
+    <div className="lax">
+      <div className="lax-box"></div>
+      <span className="imgWrap lax-1">
+        <img className="lax-1" src="/images/digues_el_que_penses.webp" alt="" />
+      </span>
+      <img className="lax-2" src="images/colacao.webp" alt="" />
+      <div className="lax-3" />
       <img
-        class="lax-box lax-3"
-        src="/images/digues_el_que_penses.webp"
-        alt=""
-      />
-      <img
-        class="lax-box lax-4"
+        className="lax-4"
         src="/images/el_verano_que_merecemos.webp"
         alt=""
       />
-      <img class="lax-box lax-5" src="/images/fotocasa.webp" alt="" />
-      <img class="lax-box lax-6" src="/images/injubilables.webp" alt="" />
+      <img className="lax-5" src="/images/fotocasa.webp" alt="" />
+      <img className="lax-6" src="/images/injubilables.webp" alt="" />
     </div>
   );
 };
