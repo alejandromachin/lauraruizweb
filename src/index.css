@@ -112,6 +112,7 @@ a:active {
 .lax-box {
   display: flex;
   flex-direction: row;
+  padding: 10em 0;
 }
 
 .lax-1 {
@@ -166,10 +167,10 @@ a:active {
   background-color: #5496ff;
 }
 
-img:hover,
+/* img:hover,
 .imgWrap:hover img {
   visibility: hidden;
-}
+} */
 
 /* 
 .lax-4 {
@@ -184,6 +185,73 @@ img:hover,
   transform: translateZ(-1px) scale(1);
 } */
 
-.lax-box {
-  padding: 10em 0;
+.projects-container {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  border: 1px solid red;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.image-1 {
+  width: 400px;
+  align-self: flex-end;
+}
+.image-2 {
+  width: 500px;
+  margin-top: 10px;
+}
+
+.image-3 {
+  justify-content: flex-end;
+}
+.image-4 {
+  width: 500px;
+}
+.image-5 {
+  width: 450px;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+.row-3-space-distributer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.row-6-space-distributer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image-6 {
+  width: 500px;
+}
+.image-7 {
+  width: 400px;
+}
+.image-8 {
+  width: 800px;
+}
+
+.image-9 {
+  width: 600px;
+}
+
+.image-10 {
+  width: 400px;
+}
+.image-11 {
+  width: 500px;
 }

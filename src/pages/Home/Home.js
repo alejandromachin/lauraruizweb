@@ -2,7 +2,8 @@
 // import { Suspense } from "react";
 // import { Canvas } from "@react-three/fiber";
 // import ProjectsDisplay from "../../components/ProjectsDisplay/ProjectsDisplay";
-import ProjectsDisplay2 from "../../components/ProjectsDisplay2/ProjectsDisplay2";
+// import ProjectsDisplay2 from "../../components/ProjectsDisplay2/ProjectsDisplay2";
+import ProjectsDisplay3 from "../../components/ProjectsDisplay3/ProjectsDisplay3";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
           <Preload />
         </Suspense>
       </Canvas> */}
-      <ProjectsDisplay2 />
+      <ProjectsDisplay3 />
     </>
   );
 };
