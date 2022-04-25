@@ -16,17 +16,23 @@ const ProjectsDisplay3 = () => {
       </div>
       <img className="image-10" src="/images/fotocasa.webp" alt="" />
       <img className="image-11" src="/images/future_manifesto.webp" alt="" />
-      {/* <img className="image-12" src="/images/colacao.webp" alt="" />
-      <img className="image-13" src="/images/light_free.webp" alt="" />
-      <img
-        className="image-14"
-        src="/images/el_verano_que_merecemos.webp"
-        alt=""
-      />
-      <img className="image-15" src="/images/mil_y_una_noches.webp" alt="" />
+      <img className="image-12" src="/images/colacao.webp" alt="" />
+      <div className="row-9-space-distributer">
+        <img className="image-13" src="/images/light_free.webp" alt="" />
+      </div>
+      <div className="row-10-space-distributer">
+        <img
+          className="image-14"
+          src="/images/el_verano_que_merecemos.webp"
+          alt=""
+        />
+        <img className="image-15" src="/images/mil_y_una_noches.webp" alt="" />
+      </div>
       <img className="image-16" src="/images/ya_no_vales.webp" alt="" />
       <img className="image-17" src="/images/fucking_money_man.webp" alt="" />
-      <img className="image-18" src="/images/sen_senra.webp" alt="" /> */}
+      <div className="row-13-space-distributer">
+        <img className="image-18" src="/images/sen_senra.webp" alt="" />
+      </div>
     </div>
   );
 };
