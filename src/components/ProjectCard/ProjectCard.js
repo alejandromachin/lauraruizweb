@@ -8,6 +8,9 @@ const ProjectCard = ({ project }) => {
         alt={project.name}
         className={project.imageSize}
       />
+      <div className="projectCard__text">
+        <p>hola</p>
+      </div>
     </ProjectCardContainer>
   );
 };
