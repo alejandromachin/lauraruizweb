@@ -4,9 +4,9 @@ const ProjectCard = ({ project }) => {
   return (
     <ProjectCardContainer>
       <img
-        src={project.image}
+        src={`images/${project.image}`}
         alt={project.name}
-        className={project.imageSize}
+        className={`${project.imageSize}Image`}
       />
       <div className="projectCard__text">
         <p>hola</p>

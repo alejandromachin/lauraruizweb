@@ -1,9 +1,11 @@
+import projects from "../../data/projects";
 import ProjectsContainer from "../../styles/ProjectsStyles";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 const ProjectsDisplay = () => {
   return (
     <ProjectsContainer>
-      <img src="/images/12_octubre.webp" alt="" className="smallImage" />
+      <ProjectCard project={projects[0]} />
       <img className="project-2" src="/images/uterque.webp" alt="" />
       <img className="project-3" src="/images/soy_rebelde.webp" alt="" />
       <div className="row-3-space-distributer">

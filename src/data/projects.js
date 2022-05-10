@@ -6,6 +6,7 @@ const projects = [
     director: "Santos Bacana",
     producer: "Little Spain",
     image: "12_octubre.webp",
+    imageSize: "small",
   },
 ];
 
