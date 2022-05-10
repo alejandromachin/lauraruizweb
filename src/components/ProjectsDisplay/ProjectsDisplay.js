@@ -1,6 +1,8 @@
+import ProjectsContainer from "../../styles/ProjectsStyles";
+
 const ProjectsDisplay = () => {
   return (
-    <div className="projects-container">
+    <ProjectsContainer>
       <img src="/images/12_octubre.webp" alt="hola" className="project-1" />
       <img className="project-2" src="/images/uterque.webp" alt="" />
       <img className="project-3" src="/images/soy_rebelde.webp" alt="" />
@@ -41,7 +43,7 @@ const ProjectsDisplay = () => {
       <div className="row-13-space-distributer">
         <img className="project-18" src="/images/sen_senra.webp" alt="" />
       </div>
-    </div>
+    </ProjectsContainer>
   );
 };
 
