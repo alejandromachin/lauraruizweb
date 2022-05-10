@@ -27,4 +27,6 @@ const ProjectsContainer = styled.div`
   }
 `;
 
+export const ProjectCardContainer = styled.div``;
+
 export default ProjectsContainer;
