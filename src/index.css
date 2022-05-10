@@ -193,7 +193,7 @@ a:active {
   flex-wrap: wrap;
   overflow-x: hidden;
   overflow-y: auto;
-  border: 1px solid red;
+
   gap: 10px;
   align-items: center;
   justify-content: flex-end;
@@ -205,24 +205,34 @@ img {
   transform-style: preserve-3d;
 }
 
-.image-1 {
-  width: 400px;
+.project-1 {
+  width: 40%;
+  border-radius: 20px;
   align-self: flex-end;
+  background-image: url("/public/images/12_octubre.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
   /* transform: translateZ(-100px) scale(1.2); */
 }
-.image-2 {
-  width: 500px;
+
+.project-2 {
+  width: 50%;
   margin-top: 10px;
   /* transform: translateZ(-100px) scale(1.2); */
 }
 
-/* .image-3 {
+.project-3 {
+  width: 100%;
+  margin-top: 10px;
+  /* transform: translateZ(-100px) scale(1.2); */
+}
+/* .project-3 {
   /* transform: translateZ(-300px) scale(2);  */
-.image-4 {
+.project-4 {
   width: 500px;
   /* transform: translateZ(-400px); */
 }
-.image-5 {
+.project-5 {
   width: 450px;
   align-self: flex-end;
   justify-content: flex-end;
@@ -257,35 +267,43 @@ img {
   justify-content: flex-start;
 }
 
-.image-6 {
+.project-6 {
   width: 500px;
 }
-.image-7 {
+.project-7 {
   width: 400px;
 }
-.image-8 {
+.project-8 {
   width: 800px;
 }
 
-.image-9 {
+.project-9 {
   width: 600px;
 }
 
-.image-10 {
+.project-10 {
   width: 400px;
 }
-.image-11 {
+.project-11 {
   width: 500px;
 }
-.image-13 {
+.project-13 {
   width: 800px;
 }
-.image-14 {
+.project-14 {
   width: 450px;
   align-self: flex-start;
 }
 
-.image-15 {
+.project-15 {
   width: 500px;
   align-self: flex-end;
+}
+
+.contact-menu {
+  top: 0;
+  bottom: 0;
+  right: -100px;
+  left: 0;
+  background-color: #5496ff;
 }
