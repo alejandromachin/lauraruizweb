@@ -6,18 +6,27 @@ import ProjectList from "./pages/ProjectList/ProjectList";
 
 function App() {
   return (
-    <div className="container">
-      <div className="staticContainer">
-        <Navigation />
-        <InfoCard />
+    <>
+      <div className="container">
+        {/* <div className="contact-menu">
+          <ul>
+            <li>INSTAGRAM</li>
+            <li>EMAIL</li>
+            <li>BARCELONA</li>
+          </ul>
+        </div> */}
+        <div className="staticContainer">
+          <Navigation />
+          <InfoCard />
+        </div>
+        <div className="dinamicContainer">
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/projectlist" element={<ProjectList />} />
+          </Routes>
+        </div>
       </div>
-      <div className="dinamicContainer">
-        <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/projectlist" element={<ProjectList />} />
-        </Routes>
-      </div>
-    </div>
+    </>
   );
 }
 
