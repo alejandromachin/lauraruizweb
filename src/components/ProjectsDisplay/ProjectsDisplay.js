@@ -3,7 +3,7 @@ import ProjectsContainer from "../../styles/ProjectsStyles";
 const ProjectsDisplay = () => {
   return (
     <ProjectsContainer>
-      <img src="/images/12_octubre.webp" alt="hola" className="project-1" />
+      <img src="/images/12_octubre.webp" alt="" className="smallImage" />
       <img className="project-2" src="/images/uterque.webp" alt="" />
       <img className="project-3" src="/images/soy_rebelde.webp" alt="" />
       <div className="row-3-space-distributer">

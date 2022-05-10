@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { largeImage, mediumImage, smallImage } from "./defaultStyles";
 
 const ProjectsContainer = styled.div`
   width: 70vw;
@@ -11,6 +12,19 @@ const ProjectsContainer = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: flex-end;
+
+  .smallImage {
+    width: ${smallImage.width};
+    height: ${smallImage.height};
+  }
+  .mediumImage {
+    width: ${mediumImage.width};
+    height: ${mediumImage.height};
+  }
+  .largeImage {
+    width: ${largeImage.width};
+    height: ${largeImage.height};
+  }
 `;
 
 export default ProjectsContainer;
