@@ -1,11 +1,13 @@
-import projects from "../../data/projects";
 import ProjectsContainer from "../../styles/ProjectsStyles";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
-const ProjectsDisplay = () => {
+const ProjectsDisplay = ({ projects }) => {
   return (
     <ProjectsContainer>
-      <ProjectCard project={projects[0]} />
+      {projects?.map((project) => (
+        <ProjectCard project={project} />
+      ))}
+
       <img className="project-2" src="/images/uterque.webp" alt="" />
       <img className="project-3" src="/images/soy_rebelde.webp" alt="" />
       <div className="row-3-space-distributer">
