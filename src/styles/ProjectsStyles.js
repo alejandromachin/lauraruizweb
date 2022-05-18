@@ -28,12 +28,12 @@ const ProjectsContainer = styled.div`
 `;
 
 export const ProjectCardContainer = styled.div`
-  .projectCard__text {
+  /* .projectCard__text {
     display: flex;
   }
   .projectCard__text:hover {
     display: none;
-  }
+  } */
 `;
 
 export default ProjectsContainer;
