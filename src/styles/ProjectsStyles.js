@@ -12,24 +12,25 @@ const ProjectsContainer = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: flex-end;
+  margin-right: 10px;
 
   .smallImage {
     transition: 1s;
     z-index: 1;
     width: ${smallImage.width};
-    height: ${smallImage.height};
+    /* height: ${smallImage.height}; */
   }
   .mediumImage {
     transition: 1s;
     z-index: 1;
     width: ${mediumImage.width};
-    height: ${mediumImage.height};
+    /* height: ${mediumImage.height}; */
   }
   .largeImage {
     transition: 1s;
 
     width: ${largeImage.width};
-    height: ${largeImage.height};
+    /* height: ${largeImage.height}; */
   }
   .largeImage:hover,
   .smallImage:hover,
@@ -61,6 +62,9 @@ export const ProjectCardContainer = styled.div`
     left: 0;
     opacity: 100%;
     transition: 0.5s;
+    ul {
+      font-size: 10px;
+    }
   }
   .projectCard__text:hover {
   }

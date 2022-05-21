@@ -79,7 +79,6 @@ a:active {
   text-align: left;
   letter-spacing: -5.5px;
   margin: 0px;
-
   padding-left: 10px;
 }
 
@@ -112,11 +111,7 @@ a:active {
   gap: 10px;
   align-items: center;
   justify-content: flex-end;
-}
-
-img {
-  border-radius: 20px;
-  transform-style: preserve-3d;
+  padding-right: 10px;
 }
 
 .project-1 {
