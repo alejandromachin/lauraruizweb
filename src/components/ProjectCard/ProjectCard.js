@@ -5,7 +5,6 @@ const ProjectCard = ({
 }) => {
   return (
     <ProjectCardContainer>
-      <img src={`images/${image}`} alt={name} className={`${imageSize}Image`} />
       <div className="projectCard__text">
         <ul>
           <li>{name}</li>
@@ -16,6 +15,7 @@ const ProjectCard = ({
           <li>PLAY</li>
         </ul>
       </div>
+      <img src={`images/${image}`} alt={name} className={`${imageSize}Image`} />
     </ProjectCardContainer>
   );
 };
