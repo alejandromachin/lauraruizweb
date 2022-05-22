@@ -7,6 +7,7 @@ const projects = [
     producer: "Little Spain",
     image: "12_octubre.webp",
     imageSize: "small",
+    backgroundColor: "D35677",
   },
   {
     name: "Uterqüe SS21",
@@ -16,6 +17,7 @@ const projects = [
     producer: "Santa Rentería",
     image: "uterque.webp",
     imageSize: "medium",
+    backgroundColor: "9970B2",
   },
   {
     name: "Soy Rebelde",
@@ -26,6 +28,7 @@ const projects = [
     producer: "CANADA",
     image: "soy_rebelde.webp",
     imageSize: "large",
+    backgroundColor: "2F4BF5",
   },
   {
     name: "She Knows",
@@ -36,6 +39,7 @@ const projects = [
     producer: "CANADA",
     image: "she_knows.webp",
     imageSize: "medium",
+    backgroundColor: "982E3F",
   },
   {
     name: "Injubilables",
@@ -46,6 +50,7 @@ const projects = [
     producer: "BAMBINA",
     image: "injubilables.webp",
     imageSize: "small",
+    backgroundColor: "A2A1A1",
   },
   {
     name: "Live More Know",
@@ -56,16 +61,7 @@ const projects = [
     producer: null,
     image: "live_more_know.webp",
     imageSize: "small",
-  },
-  {
-    name: "Live More Know",
-    data: "Commercial 2021",
-    client: "BUFF",
-    director: "Miquel Díaz Pont",
-    agency: null,
-    producer: null,
-    image: "live_more_know.webp",
-    imageSize: "small",
+    backgroundColor: "53849C",
   },
   {
     name: "Volkswagen Caddy",
@@ -76,6 +72,7 @@ const projects = [
     producer: "AGOSTO",
     image: "live_more_know.webp",
     imageSize: "medium",
+    backgroundColor: "B6AD93",
   },
   {
     name: "Digues el que penses",
@@ -86,6 +83,7 @@ const projects = [
     producer: "GOROK",
     image: "digues_el_que_penses.webp",
     imageSize: "large",
+    backgroundColor: "AC5871",
   },
   {
     name: "MÓ - Aitana",
@@ -96,6 +94,7 @@ const projects = [
     producer: "CANADA",
     image: "mo_aitana.webp",
     imageSize: "medium",
+    backgroundColor: "83BE90",
   },
   {
     name: "Fotocasa",
@@ -106,6 +105,7 @@ const projects = [
     producer: "I AM LIMÓN",
     image: "fotocasa.webp",
     imageSize: "medium",
+    backgroundColor: "F0CCBD",
   },
   {
     name: "Future Manifesto",
@@ -116,6 +116,7 @@ const projects = [
     producer: "Story We Produce",
     image: "future_manifesto.webp",
     imageSize: "medium",
+    backgroundColor: "BCEE93",
   },
   {
     name: "ColaCao ¿Estás Ready?",
@@ -126,6 +127,7 @@ const projects = [
     producer: "Glassy Films",
     image: "colacao.webp",
     imageSize: "small",
+    backgroundColor: "C1602F",
   },
   {
     name: "Light & Free",
@@ -136,6 +138,7 @@ const projects = [
     producer: "Story We Produce",
     image: "light_free.webp",
     imageSize: "large",
+    backgroundColor: "D84782",
   },
   {
     name: "El verano que merecemos",
@@ -146,6 +149,7 @@ const projects = [
     producer: "CANADA",
     image: "el_verano_que_merecemos.webp",
     imageSize: "large",
+    backgroundColor: "fcf6e2",
   },
   {
     name: "Mil y Una Noches - GUITARRICA DE LA FUENTE",
@@ -156,6 +160,7 @@ const projects = [
     producer: "Sara Rentería",
     image: "mil_y_una_noches.webp",
     imageSize: "small",
+    backgroundColor: "53849C",
   },
   {
     name: "Ya No Vales - ALIZZ FT. C. TANGANA",
@@ -166,6 +171,7 @@ const projects = [
     producer: "CANADA",
     image: "ya_no_vales.webp",
     imageSize: "medium",
+    backgroundColor: "e8f7f2",
   },
   {
     name: "F*cking Money Man - ROSALÍA",
@@ -176,6 +182,7 @@ const projects = [
     producer: "Story",
     image: "fucking_money_man.webp",
     imageSize: "medium",
+    backgroundColor: "FD6A4E",
   },
   {
     name: "Sublime - SEN SENRA",
@@ -186,6 +193,7 @@ const projects = [
     producer: "Sara Rentería",
     image: "sen_senra.webp",
     imageSize: "medium",
+    backgroundColor: "AF701B",
   },
   {
     name: "Desde Las Alturas - GUITARRICA DE LA FUENTE",
@@ -196,6 +204,7 @@ const projects = [
     producer: "Sara Rentería",
     image: "desde_las_alturas.webp",
     imageSize: "medium",
+    backgroundColor: "C0D692",
   },
   {
     name: "GALOPE",
@@ -206,6 +215,7 @@ const projects = [
     producer: "CANADA",
     image: "desde_las_alturas.webp",
     imageSize: "medium",
+    backgroundColor: "E6B5A4",
   },
   {
     name: "Pronto Llegará - C. TANGANA",
@@ -216,6 +226,7 @@ const projects = [
     producer: "Little Spain",
     image: "pronto_llegara.webp",
     imageSize: "small",
+    backgroundColor: "F9A628",
   },
 ];
 
