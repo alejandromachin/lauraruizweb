@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import InfoCard from "./components/InfoCard/InfoCard";
 import Navigation from "./components/Navigation/Navigation";
 import Home from "./pages/Home/Home";
@@ -21,6 +21,7 @@ function App() {
         </div>
         <div className="dinamicContainer">
           <Routes>
+            <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
             <Route path="/projectlist" element={<ProjectList />} />
           </Routes>
