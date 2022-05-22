@@ -11,11 +11,11 @@ const ProjectsContainer = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: flex-end;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   margin: 10px;
   ::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+    display: none;
   }
 
   .smallImage {

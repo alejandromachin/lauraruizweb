@@ -48,13 +48,11 @@ a:active {
 
 .staticContainer {
   width: 25vw;
-  border: 1px solid red;
 
   display: flex;
   flex-direction: column;
 }
 .dinamicContainer {
-  border: 1px solid black;
   width: 75vw;
   height: 100vh;
   overflow-y: hidden;
@@ -102,7 +100,6 @@ a:active {
 }
 
 .projectDisplay__image {
-  border: 1px solid black;
   border-radius: 10px;
 }
 
