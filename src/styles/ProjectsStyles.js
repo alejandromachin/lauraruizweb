@@ -41,7 +41,7 @@ const ProjectsContainer = styled.div`
 
 export const ProjectCardContainer = styled.div`
   position: relative;
-  background-color: ${(props) => props.backgroundColor};
+  background-color: ${(props) => `#${props.backgroundColor}`};
   display: flex;
   border-radius: 20px;
 

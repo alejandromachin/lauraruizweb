@@ -1,10 +1,19 @@
 import { ProjectCardContainer } from "../../styles/ProjectsStyles";
 
 const ProjectCard = ({
-  project: { name, data, client, director, producer, image, imageSize },
+  project: {
+    name,
+    data,
+    client,
+    director,
+    producer,
+    image,
+    imageSize,
+    backgroundColor,
+  },
 }) => {
   return (
-    <ProjectCardContainer>
+    <ProjectCardContainer backgroundColor={backgroundColor}>
       <div className="projectCard__text">
         <ul>
           <li>{name}</li>
