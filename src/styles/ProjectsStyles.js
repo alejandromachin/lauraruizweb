@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { largeImage, mediumImage, smallImage } from "./defaultStyles";
 
 const ProjectsContainer = styled.div`
-  width: 70vw;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -12,7 +11,12 @@ const ProjectsContainer = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: flex-end;
-  margin-right: 10px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  margin: 10px;
+  ::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
 
   .smallImage {
     transition: 1s;
