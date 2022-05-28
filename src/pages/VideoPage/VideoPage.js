@@ -1,19 +1,18 @@
 import { useParams } from "react-router-dom";
 import projects from "../../data/projects";
+import ReactPlayer from "react-player";
 
 const VideoPage = () => {
   const params = useParams();
   const { project: projectName } = params;
 
-  const prueba = projects.find(
+  const { videoUrl } = projects.find(
     (project) => project.name.toLowerCase() === projectName.split("-").join(" ")
   );
 
-  console.log(prueba);
   return (
     <div>
-      <h1>Video Page</h1>
-      <img src={prueba.videoUrl} alt={prueba.name} />
+      <ReactPlayer url={videoUrl} controls={true} width="100%" />
     </div>
   );
 };
