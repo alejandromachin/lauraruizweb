@@ -2,7 +2,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import InfoCard from "./components/InfoCard/InfoCard";
 import Navigation from "./components/Navigation/Navigation";
 import Home from "./pages/Home/Home";
-import ProjectList from "./pages/ProjectList/ProjectList";
+
+import ProjectListPage from "./pages/ProjectListPage/ProjectListPage";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/projectlist" element={<ProjectList />} />
+            <Route path="/projectlist" element={<ProjectListPage />} />
           </Routes>
         </div>
       </div>

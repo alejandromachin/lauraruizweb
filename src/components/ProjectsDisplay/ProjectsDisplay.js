@@ -5,7 +5,7 @@ const ProjectsDisplay = ({ projects }) => {
   return (
     <ProjectsContainer>
       {projects?.map((project) => (
-        <ProjectCard project={project} />
+        <ProjectCard key={project.name} project={project} />
       ))}
     </ProjectsContainer>
   );
