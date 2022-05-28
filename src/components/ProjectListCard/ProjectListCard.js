@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import {
   ProjectListCardContainer,
   ProjectListCardImage,
 } from "../../styles/ProjectListStyles";
+import goToVideoPage from "../../utils/goToVideoPage";
 
 const ProjectListCard = ({
   project: {
@@ -12,12 +14,16 @@ const ProjectListCard = ({
     director,
     producer,
     image,
-    imageSize,
     backgroundColor,
   },
 }) => {
+  const navigate = useNavigate();
+
   return (
-    <ProjectListCardContainer backgroundColor={backgroundColor}>
+    <ProjectListCardContainer
+      backgroundColor={backgroundColor}
+      onClick={() => goToVideoPage(name, navigate)}
+    >
       <div className="projectListCard__play">PLAY</div>
       <div className="projectListCard">
         <div className="projectListCard__title">

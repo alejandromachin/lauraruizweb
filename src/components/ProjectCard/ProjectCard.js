@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router-dom";
 import { ProjectCardContainer } from "../../styles/ProjectsStyles";
+import goToVideoPage from "../../utils/goToVideoPage";
 
 const ProjectCard = ({
   project: {
@@ -13,8 +15,13 @@ const ProjectCard = ({
     backgroundColor,
   },
 }) => {
+  const navigate = useNavigate();
+
   return (
-    <ProjectCardContainer backgroundColor={backgroundColor}>
+    <ProjectCardContainer
+      backgroundColor={backgroundColor}
+      onClick={() => goToVideoPage(name, navigate)}
+    >
       <div className="projectCard__text">
         <ul>
           <li>{name}</li>
