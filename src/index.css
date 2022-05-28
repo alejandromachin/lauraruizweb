@@ -123,3 +123,7 @@ a:active {
   left: 0;
   background-color: #5496ff;
 }
+
+.projectListPage {
+  height: 120vh;
+}
