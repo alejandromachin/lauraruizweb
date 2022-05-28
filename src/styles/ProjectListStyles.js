@@ -1,6 +1,22 @@
 import styled from "styled-components";
 
-export const ProjectListContainer = styled.div``;
+export const ProjectListContainer = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 40px;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+`;
 
 export const ProjectListCardContainer = styled.div`
   font-family: Helvetica, sans-serif;
