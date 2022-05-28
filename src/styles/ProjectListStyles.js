@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+export const ProjectListContainer = styled.div``;
+
 export const ProjectListCardContainer = styled.div`
   font-family: Helvetica, sans-serif;
   width: 90%;
