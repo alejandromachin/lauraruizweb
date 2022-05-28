@@ -7,7 +7,6 @@ export const ProjectListContainer = styled.div`
   flex-wrap: wrap;
   overflow-x: hidden;
   overflow-y: auto;
-  gap: 10px;
   align-items: center;
   justify-content: flex-end;
   -ms-overflow-style: none;
@@ -21,11 +20,12 @@ export const ProjectListContainer = styled.div`
 export const ProjectListCardContainer = styled.div`
   font-family: Helvetica, sans-serif;
   width: 90%;
-  height: 110px;
+  height: 18%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-top: 1px solid #f45c54;
+  padding-left: 20px;
 
   .projectListCard__title {
     display: flex;
@@ -58,10 +58,10 @@ export const ProjectListCardContainer = styled.div`
 `;
 
 export const ProjectListCardImage = styled.div`
-  width: 18%;
+  width: 20%;
   height: 80%;
   background-image: ${(props) => `url(${props.backgroundImage})`};
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 5px;
 `;
