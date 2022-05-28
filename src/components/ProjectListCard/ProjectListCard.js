@@ -1,3 +1,5 @@
+import ProjectListCardContainer from "../../styles/ProjectListStyles";
+
 const ProjectListCard = ({
   project: {
     name,
@@ -11,19 +13,18 @@ const ProjectListCard = ({
   },
 }) => {
   return (
-    <ProjectCardContainer backgroundColor={backgroundColor}>
-      <div className="projectCard__text">
-        <ul>
-          <li>{name}</li>
-          <li>{data}</li>
-          <li>Client: {client}</li>
-          <li>Director: {director}</li>
-          <li>Producer: {producer}</li>
-          <li>PLAY</li>
-        </ul>
+    <ProjectListCardContainer backgroundColor={backgroundColor}>
+      <div className="projectListCard__title">
+        <h2>{name}</h2>
+        <p>{data}</p>
       </div>
       <img src={`images/${image}`} alt={name} className={`${imageSize}Image`} />
-    </ProjectCardContainer>
+      <ul className="projectListCard__info">
+        <li>Client: {client}</li>
+        <li>Director: {director}</li>
+        <li>Producer: {producer}</li>
+      </ul>
+    </ProjectListCardContainer>
   );
 };
 
