@@ -8,6 +8,7 @@ const projects = [
     image: "12_octubre.webp",
     imageSize: "small",
     backgroundColor: "D35677",
+    videoUrl: "https://www.youtube.com/watch?v=s3NhaMVvcWE&ab_channel=PumaBlue",
   },
   {
     name: "Uterqüe SS21",
