@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import projects from "../../data/projects";
 import ReactPlayer from "react-player";
+import VideoContainer from "../../styles/videoStyles";
 
 const VideoPage = () => {
   const params = useParams();
@@ -11,9 +12,9 @@ const VideoPage = () => {
   );
 
   return (
-    <div>
+    <VideoContainer>
       <ReactPlayer url={videoUrl} controls={true} width="100%" />
-    </div>
+    </VideoContainer>
   );
 };
 
