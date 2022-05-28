@@ -71,7 +71,8 @@ export const ProjectListCardContainer = styled.div`
     font-size: 10px;
     height: 100%;
 
-    h2 {
+    h2,
+    h3 {
       margin-top: 0;
       margin-bottom: 0;
       font-weight: 200;
