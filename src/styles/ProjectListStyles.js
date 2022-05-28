@@ -18,14 +18,51 @@ export const ProjectListContainer = styled.div`
 `;
 
 export const ProjectListCardContainer = styled.div`
-  font-family: Helvetica, sans-serif;
   width: 90%;
   height: 18%;
+  background-color: ${(props) => `#${props.backgroundColor}`};
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid #f45c54;
-  padding-left: 20px;
+  position: relative;
+
+  .projectListCard {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #d7c9e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-top: 1px solid #f45c54;
+    transition: 0.5s;
+    position: relative;
+  }
+  .projectListCard__play {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projectListCard:hover {
+    border-top: 1px solid;
+    opacity: 0;
+
+    .projectListCard__play {
+      opacity: 100;
+    }
+  }
+
+  :after {
+    position: relative;
+  }
+  :hover::after {
+    opacity: 100;
+  }
 
   .projectListCard__title {
     display: flex;
