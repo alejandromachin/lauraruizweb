@@ -3,6 +3,7 @@ import { ProjectCardContainer } from "../../styles/ProjectsStyles";
 const ProjectCard = ({
   project: {
     name,
+    artist,
     data,
     client,
     director,
@@ -17,6 +18,7 @@ const ProjectCard = ({
       <div className="projectCard__text">
         <ul>
           <li>{name}</li>
+          {artist && <li>{artist}</li>}
           <li>{data}</li>
           <li>Client: {client}</li>
           <li>Director: {director}</li>

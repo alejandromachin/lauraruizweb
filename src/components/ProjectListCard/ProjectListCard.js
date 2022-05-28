@@ -6,6 +6,7 @@ import {
 const ProjectListCard = ({
   project: {
     name,
+    artist,
     data,
     client,
     director,
@@ -21,6 +22,7 @@ const ProjectListCard = ({
       <div className="projectListCard">
         <div className="projectListCard__title">
           <h2>{name}</h2>
+          {artist && <h3>{artist}</h3>}
           <p>({data})</p>
         </div>
         <ProjectListCardImage
