@@ -88,7 +88,7 @@ export const ProjectListCardContainer = styled.div`
   }
   .projectListCard__info {
     font-size: 12px;
-    width: 30%;
+    width: 40%;
     height: 100%;
     margin: 0;
     padding-top: 20px;
