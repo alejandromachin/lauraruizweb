@@ -70,11 +70,13 @@ export const ProjectListCardContainer = styled.div`
     padding-top: 20px;
     font-size: 10px;
     height: 100%;
+    width: 25%;
 
     h2,
     h3 {
       margin-top: 0;
       margin-bottom: 0;
+      margin-right: 0;
       font-weight: 200;
       font-size: 12px;
     }
