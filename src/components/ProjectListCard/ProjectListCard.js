@@ -1,4 +1,7 @@
-import ProjectListCardContainer from "../../styles/ProjectListStyles";
+import {
+  ProjectListCardContainer,
+  ProjectListCardImage,
+} from "../../styles/ProjectListStyles";
 
 const ProjectListCard = ({
   project: {
@@ -18,7 +21,9 @@ const ProjectListCard = ({
         <h2>{name}</h2>
         <p>{data}</p>
       </div>
-      <img src={`images/${image}`} alt={name} className={`${imageSize}Image`} />
+      <ProjectListCardImage
+        backgroundImage={`images/${image}`}
+      ></ProjectListCardImage>
       <ul className="projectListCard__info">
         <li>Client: {client}</li>
         <li>Director: {director}</li>
