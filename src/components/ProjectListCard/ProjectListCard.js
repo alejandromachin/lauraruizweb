@@ -19,7 +19,7 @@ const ProjectListCard = ({
     <ProjectListCardContainer backgroundColor={backgroundColor}>
       <div className="projectListCard__title">
         <h2>{name}</h2>
-        <p>{data}</p>
+        <p>({data})</p>
       </div>
       <ProjectListCardImage
         backgroundImage={`images/${image}`}

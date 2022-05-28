@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectListCardContainer = styled.div`
+  font-family: Arial, Helvetica, sans-serif;
   width: 90%;
   height: 120px;
   display: flex;
@@ -8,10 +9,16 @@ export const ProjectListCardContainer = styled.div`
   justify-content: space-between;
   border-top: 1px solid #f45c54;
   .projectListCard__title {
+    font-size: 10px;
     width: 30%;
     height: 100%;
+    p {
+      font-family: Times, serif;
+      font-style: italic;
+    }
   }
   .projectListCard__info {
+    font-size: 10px;
     width: 30%;
     height: 100%;
     margin: 0;
