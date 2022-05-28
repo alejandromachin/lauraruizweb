@@ -218,7 +218,7 @@ const projects = [
     director: "Nur Casadevall",
     agency: null,
     producer: "CANADA",
-    image: "desde_las_alturas.webp",
+    image: "galope.webp",
     imageSize: "medium",
     backgroundColor: "E6B5A4",
   },
