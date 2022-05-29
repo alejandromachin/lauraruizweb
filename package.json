@@ -6,6 +6,7 @@
     "@fontsource/inter": "^4.5.7",
     "@react-three/drei": "^9.4.2",
     "@redux-devtools/extension": "^3.2.2",
+    "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^14.1.0",
@@ -19,6 +20,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
     "react-scroll-parallax": "^3.0.6",
+    "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"

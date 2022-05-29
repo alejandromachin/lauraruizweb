@@ -1,4 +1,3 @@
-import { useState } from "react";
 import ProjectsContainer from "../../styles/ProjectsStyles";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
