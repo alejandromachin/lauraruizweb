@@ -1,6 +1,9 @@
+import { useSelector } from "react-redux";
 import ContactMenu from "../ContactMenu/ContactMenu";
 
 const InfoCard = () => {
+  const showMenu = useSelector((state) => state.menu.showMenu);
+
   return (
     <div className="infoCard-container">
       <h1 className="infoCard-container__title">Laura Ruiz Penacho</h1>
