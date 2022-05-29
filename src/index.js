@@ -7,14 +7,15 @@ import { BrowserRouter } from "react-router-dom";
 import "@fontsource/inter";
 import "@fontsource/inter/300.css";
 import "@fontsource/inter/200.css";
-import { ParallaxProvider } from "react-scroll-parallax";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ParallaxProvider>
+      <Provider store={store}>
         <App />
-      </ParallaxProvider>
+      </Provider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

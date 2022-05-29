@@ -1,14 +1,21 @@
+import { useDispatch } from "react-redux";
+import {
+  hideMenuActionCreator,
+  showMenuActionCreator,
+} from "../../redux/menuSlice";
 import ProjectsContainer from "../../styles/ProjectsStyles";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const ProjectsDisplay = ({ projects }) => {
-  //create a function to hide the menu when scrolling down
+  const dispatch = useDispatch();
 
   const onScroll = (e) => {
     const currentScrollY = e.target.scrollTop;
     if (currentScrollY > 400) {
+      dispatch(hideMenuActionCreator());
     }
     if (currentScrollY < 400) {
+      dispatch(showMenuActionCreator());
     }
   };
 
