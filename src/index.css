@@ -70,6 +70,7 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .infoCard-container__title {
@@ -126,4 +127,9 @@ a:active {
 
 .projectListPage {
   height: 120vh;
+}
+
+.hidden {
+  opacity: 0;
+  transition: 0.5s;
 }
