@@ -48,7 +48,6 @@ a:active {
 
 .staticContainer {
   width: 25vw;
-
   display: flex;
   flex-direction: column;
 }
