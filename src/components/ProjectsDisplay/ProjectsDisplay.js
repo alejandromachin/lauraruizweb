@@ -1,4 +1,5 @@
-import { useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import {
   hideMenuActionCreator,
   showMenuActionCreator,
@@ -7,7 +8,18 @@ import ProjectsContainer from "../../styles/ProjectsStyles";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const ProjectsDisplay = ({ projects }) => {
+  const projectsFilter = useSelector((state) => state.projectsFilter.filter);
   const dispatch = useDispatch();
+  const [filteredProjects, setFilteredProjects] = useState(projects);
+  console.log(projectsFilter);
+  useEffect(() => {
+    if (projectsFilter !== "all") {
+      const filteredProjects = projects.filter(
+        (project) => project.category === projectsFilter
+      );
+      setFilteredProjects(filteredProjects);
+    }
+  }, [projects, projectsFilter]);
 
   const onScroll = (e) => {
     const currentScrollY = e.target.scrollTop;
@@ -21,7 +33,7 @@ const ProjectsDisplay = ({ projects }) => {
 
   return (
     <ProjectsContainer onScroll={onScroll}>
-      {projects?.map((project) => (
+      {filteredProjects?.map((project) => (
         <ProjectCard key={project.name} project={project} />
       ))}
     </ProjectsContainer>

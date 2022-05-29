@@ -2,6 +2,7 @@ const projects = [
   {
     name: "12 de Octubre",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "Correos",
     director: "Santos Bacana",
     producer: "Little Spain",
