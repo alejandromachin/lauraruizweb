@@ -11,7 +11,7 @@ const ProjectsDisplay = ({ projects }) => {
   const projectsFilter = useSelector((state) => state.projectsFilter.filter);
   const dispatch = useDispatch();
   const [filteredProjects, setFilteredProjects] = useState(projects);
-  console.log(projectsFilter);
+
   useEffect(() => {
     if (projectsFilter !== "all") {
       const filteredProjects = projects.filter(
