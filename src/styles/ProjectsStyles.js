@@ -14,6 +14,7 @@ const ProjectsContainer = styled.div`
   -ms-overflow-style: none;
   scrollbar-width: none;
   margin: 10px;
+
   ::-webkit-scrollbar {
     display: none;
   }

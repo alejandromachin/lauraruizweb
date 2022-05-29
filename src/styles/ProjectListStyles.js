@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ProjectListContainer = styled.div`
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,6 +13,7 @@ export const ProjectListContainer = styled.div`
   -ms-overflow-style: none;
   scrollbar-width: none;
   margin: 40px;
+  border: 1px solid black;
   ::-webkit-scrollbar {
     display: none;
   }
@@ -70,13 +72,11 @@ export const ProjectListCardContainer = styled.div`
     padding-top: 20px;
     font-size: 10px;
     height: 100%;
-    width: 25%;
 
     h2,
     h3 {
       margin-top: 0;
       margin-bottom: 0;
-      margin-right: 0;
       font-weight: 200;
       font-size: 12px;
     }
@@ -88,7 +88,7 @@ export const ProjectListCardContainer = styled.div`
   }
   .projectListCard__info {
     font-size: 12px;
-    width: 40%;
+    width: 30%;
     height: 100%;
     margin: 0;
     padding-top: 20px;

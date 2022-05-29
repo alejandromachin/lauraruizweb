@@ -53,7 +53,12 @@ a:active {
   flex-direction: column;
 }
 .dinamicContainer {
-  width: 75vw;
+  height: 100vh;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+.projectsContainer {
+  position: absolute;
   height: 100vh;
   overflow-y: hidden;
   scrollbar-width: none;

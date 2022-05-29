@@ -9,6 +9,10 @@ const Home = () => {
   useEffect(() => {
     dispatch(showMenuActionCreator());
   });
-  return <ProjectsDisplay projects={projects} />;
+  return (
+    <div className="projectsContainer">
+      <ProjectsDisplay projects={projects} />
+    </div>
+  );
 };
 export default Home;
