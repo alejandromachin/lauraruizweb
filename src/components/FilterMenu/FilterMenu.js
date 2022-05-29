@@ -10,6 +10,9 @@ const FilterMenu = () => {
 
   return (
     <FilterButtonContainer>
+      <button style={{ zIndex: 1 }} onClick={() => setFilter("all")}>
+        All
+      </button>
       <button style={{ zIndex: 1 }} onClick={() => setFilter("Music Video")}>
         Music Videos
       </button>
