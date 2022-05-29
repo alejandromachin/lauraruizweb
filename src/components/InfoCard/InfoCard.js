@@ -1,3 +1,5 @@
+import ContactMenu from "../ContactMenu/ContactMenu";
+
 const InfoCard = () => {
   return (
     <div className="infoCard-container">
@@ -8,11 +10,7 @@ const InfoCard = () => {
         <br /> the creative team <br />
         to flourish.
       </p>
-      <ul>
-        <li>INSTAGRAM</li>
-        <li>EMAIL</li>
-        <li>BARCELONA</li>
-      </ul>
+      <ContactMenu />
     </div>
   );
 };

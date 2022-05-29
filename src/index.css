@@ -127,3 +127,7 @@ a:active {
 .projectListPage {
   height: 120vh;
 }
+
+.hidden {
+  opacity: 0;
+}
