@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
 import { setFilterActionCreator } from "../../redux/projectsFilterSlice";
+import FilterButtonContainer from "../../styles/filterButton";
 
 const FilterMenu = () => {
   const dispatch = useDispatch();
@@ -8,7 +9,7 @@ const FilterMenu = () => {
   };
 
   return (
-    <>
+    <FilterButtonContainer>
       <button style={{ zIndex: 1 }} onClick={() => setFilter("Music Video")}>
         Music Videos
       </button>
@@ -21,7 +22,7 @@ const FilterMenu = () => {
       <button style={{ zIndex: 1 }} onClick={() => setFilter("2ad")}>
         2nd AD
       </button>
-    </>
+    </FilterButtonContainer>
   );
 };
 
