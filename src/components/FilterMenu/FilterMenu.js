@@ -9,7 +9,18 @@ const FilterMenu = () => {
 
   return (
     <>
-      <button onClick={setFilter("Music Video")}>Music Videos</button>
+      <button style={{ zIndex: 1 }} onClick={() => setFilter("Music Video")}>
+        Music Videos
+      </button>
+      <button style={{ zIndex: 1 }} onClick={() => setFilter("Commercial")}>
+        Commercials
+      </button>
+      <button style={{ zIndex: 1 }} onClick={() => setFilter("fiction")}>
+        Fiction
+      </button>
+      <button style={{ zIndex: 1 }} onClick={() => setFilter("2ad")}>
+        2nd AD
+      </button>
     </>
   );
 };
