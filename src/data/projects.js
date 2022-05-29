@@ -9,7 +9,7 @@ const projects = [
     imageSize: "small",
     backgroundColor: "D35677",
     videoUrl:
-      "https://player.vimeo.com/video/372536786?h=7f94fd269c&color=ef0000&title=0&byline=0&portrait=0",
+      "https://player.vimeo.com/video/639984746?h=ef91039ffa&color=17b9f6&title=0&byline=0&portrait=0",
   },
   {
     name: "Uterqüe SS21",
