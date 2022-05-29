@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ProjectListContainer = styled.div`
   height: 100vh;
+  width: 75vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -11,14 +12,14 @@ export const ProjectListContainer = styled.div`
   justify-content: flex-end;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  margin: 40px;
+  padding: 40px;
   ::-webkit-scrollbar {
     display: none;
   }
 `;
 
 export const ProjectListCardContainer = styled.div`
-  width: 90%;
+  width: 100%;
   height: 18%;
   background-color: ${(props) => `#${props.backgroundColor}`};
   display: flex;
@@ -57,26 +58,18 @@ export const ProjectListCardContainer = styled.div`
     }
   }
 
-  :after {
-    position: relative;
-  }
-  :hover::after {
-    opacity: 100;
-  }
-
   .projectListCard__title {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
     font-size: 10px;
     height: 100%;
-    width: 25%;
+    width: 20%;
 
     h2,
     h3 {
       margin-top: 0;
       margin-bottom: 0;
-      margin-right: 0;
       font-weight: 200;
       font-size: 12px;
     }
@@ -88,7 +81,7 @@ export const ProjectListCardContainer = styled.div`
   }
   .projectListCard__info {
     font-size: 12px;
-    width: 40%;
+    width: 30%;
     height: 100%;
     margin: 0;
     padding-top: 20px;
