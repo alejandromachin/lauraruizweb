@@ -17,7 +17,7 @@ const InfoCard = () => {
         to flourish.
       </p>
       <ContactMenu />
-      {pathname === "/projectlist" ? "" : <FilterMenu />}
+      {pathname === "/home" ? <FilterMenu /> : ""}
     </div>
   );
 };
