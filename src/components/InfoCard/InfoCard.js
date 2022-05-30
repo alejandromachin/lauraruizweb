@@ -1,8 +1,11 @@
 import { useSelector } from "react-redux";
+import { useLocation } from "react-router-dom";
 import ContactMenu from "../ContactMenu/ContactMenu";
+import FilterMenu from "../FilterMenu/FilterMenu";
 
 const InfoCard = () => {
   const showMenu = useSelector((state) => state.menu.showMenu);
+  const { pathname } = useLocation();
 
   return (
     <div className={showMenu ? "infoCard-container" : "hidden"}>
@@ -14,6 +17,7 @@ const InfoCard = () => {
         to flourish.
       </p>
       <ContactMenu />
+      {pathname === "/home" ? <FilterMenu /> : ""}
     </div>
   );
 };

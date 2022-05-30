@@ -2,6 +2,7 @@ const projects = [
   {
     name: "12 de Octubre",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "Correos",
     director: "Santos Bacana",
     producer: "Little Spain",
@@ -14,6 +15,7 @@ const projects = [
   {
     name: "Uterqüe SS21",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "Uterqüe",
     director: "Pedro Artola",
     producer: "Santa Rentería",
@@ -24,6 +26,7 @@ const projects = [
   },
   {
     name: "Soy Rebelde",
+    category: "Commercial",
     data: "Commercial 2021",
     client: "La Prohibida",
     director: "Bàrbara Farré",
@@ -37,6 +40,7 @@ const projects = [
   {
     name: "She Knows",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "Vasquiat",
     director: "ROGELIO",
     agency: "FLIRT x CANADA",
@@ -49,6 +53,7 @@ const projects = [
   {
     name: "Injubilables",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "PIKOLINI",
     director: "Oriol Villar",
     agency: "Oriol Villar",
@@ -61,6 +66,7 @@ const projects = [
   {
     name: "Live More Know",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "BUFF",
     director: "Miquel Díaz Pont",
     agency: null,
@@ -73,6 +79,7 @@ const projects = [
   {
     name: "Volkswagen Caddy",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "Volkswagen",
     director: "Laura Garcia",
     agency: null,
@@ -85,6 +92,7 @@ const projects = [
   {
     name: "Digues el que penses",
     data: "Commercial 2019",
+    category: "Commercial",
     client: "Ajuntament de BCN",
     director: "Bàrbara Farré",
     agency: null,
@@ -97,6 +105,7 @@ const projects = [
   {
     name: "MÓ - Aitana",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "Multiópticas",
     director: "RÉALITÉ",
     agency: null,
@@ -109,6 +118,7 @@ const projects = [
   {
     name: "Fotocasa",
     data: "Commercial 2019",
+    category: "Commercial",
     client: "FOTOCASA",
     director: "Pedro B.Abreu",
     agency: "Chârles Barcelona",
@@ -121,6 +131,7 @@ const projects = [
   {
     name: "Future Manifesto",
     data: "Commercial 2020",
+    category: "Commercial",
     client: "PUMA",
     director: "Leo Adef",
     agency: "Helsinki",
@@ -133,6 +144,7 @@ const projects = [
   {
     name: "ColaCao ¿Estás Ready?",
     data: "Commercial 2020",
+    category: "Commercial",
     client: "ColaCao",
     director: "Pedro Abreu",
     agency: "Tiempo BBDO",
@@ -145,6 +157,7 @@ const projects = [
   {
     name: "Light & Free",
     data: "Commercial 2020",
+    category: "Commercial",
     client: "DANONE",
     director: "Bàrbara Farré",
     agency: "Wundermanthompson",
@@ -157,6 +170,7 @@ const projects = [
   {
     name: "El verano que merecemos",
     data: "Commercial 2021",
+    category: "Commercial",
     client: "Decathlon",
     director: "Bàrbara Farré",
     agency: "&Rosàs",
@@ -169,6 +183,7 @@ const projects = [
   {
     name: "Mil y Una Noches",
     artist: "GUITARRICA DE LA FUENTE",
+    category: "Music Video",
     data: "Music Video 2021",
     client: null,
     director: "Pedro Artola",
@@ -183,6 +198,7 @@ const projects = [
     name: "Ya No Vales",
     artist: "ALIZZ FT. C. TANGANA",
     data: "Music Video 2021",
+    category: "Music Video",
     client: null,
     director: "Félix Bollain",
     agency: null,
@@ -196,6 +212,7 @@ const projects = [
     name: "F*cking Money Man",
     artist: "ROSALÍA",
     data: "Music Video 2019",
+    category: "Music Video",
     client: null,
     director: "Bàrbara Ferré",
     agency: null,
@@ -209,6 +226,7 @@ const projects = [
     name: "Sublime",
     artist: "SEN SENRA",
     data: "Music Video 2021",
+    category: "Music Video",
     client: null,
     director: "Pedro Artola",
     agency: null,
@@ -222,6 +240,7 @@ const projects = [
     name: "Desde Las Alturas",
     artist: "GUITARRICA DE LA FUENTE",
     data: "Music Video 2020",
+    category: "Music Video",
     client: null,
     director: "Pedro Artola",
     agency: null,
@@ -234,6 +253,7 @@ const projects = [
   {
     name: "GALOPE",
     data: "Music Video 2021",
+    category: "Music Video",
     client: "Films.Dance",
     director: "Nur Casadevall",
     agency: null,
@@ -247,6 +267,7 @@ const projects = [
     name: "Pronto Llegará",
     artist: "C. TANGANA",
     data: "Music Video 2019",
+    category: "Music Video",
     client: null,
     director: "Santos Bacana",
     agency: null,
