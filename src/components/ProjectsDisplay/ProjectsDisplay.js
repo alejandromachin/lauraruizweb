@@ -9,6 +9,8 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 const ProjectsDisplay = ({ projects }) => {
   const projectsFilter = useSelector((state) => state.projectsFilter.filter);
+  const { projects: allProjects } = useSelector((state) => state.projects);
+
   const dispatch = useDispatch();
   const [filteredProjects, setFilteredProjects] = useState(projects);
 
@@ -18,8 +20,10 @@ const ProjectsDisplay = ({ projects }) => {
         (project) => project.category === projectsFilter
       );
       setFilteredProjects(filteredProjects);
+    } else {
+      setFilteredProjects(allProjects);
     }
-  }, [projects, projectsFilter]);
+  }, [allProjects, projects, projectsFilter]);
 
   const onScroll = (e) => {
     const currentScrollY = e.target.scrollTop;
