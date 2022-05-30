@@ -277,6 +277,19 @@ const projects = [
     backgroundColor: "F9A628",
     videoUrl: "",
   },
+    {
+    name: "Future Manifesto",
+    data: "Commercial 2020",
+    category: "Commercial",
+    client: "PUMA",
+    director: "Leo Adef",
+    agency: "Helsinki",
+    producer: "Story We Produce",
+    image: "future_manifesto.webp",
+    imageSize: "medium",
+    backgroundColor: "BCEE93",
+    videoUrl: "",
+  },
 ];
 
 export default projects;
