@@ -68,6 +68,10 @@ a:active {
   height: 100vh;
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 }
 
 .infoCard-container {

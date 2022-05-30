@@ -13,6 +13,7 @@ export const ProjectListContainer = styled.div`
   -ms-overflow-style: none;
   scrollbar-width: none;
   padding: 40px;
+
   ::-webkit-scrollbar {
     display: none;
   }
