@@ -1,4 +1,4 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { setFilterActionCreator } from "../../redux/projectsFilterSlice";
 import FilterButtonContainer from "../../styles/filterButton";
 
@@ -8,21 +8,43 @@ const FilterMenu = () => {
     dispatch(setFilterActionCreator(filter));
   };
 
+  const filter = useSelector((state) => state.projectsFilter.filter);
+  console.log(filter);
   return (
     <FilterButtonContainer>
-      <button style={{ zIndex: 1 }} onClick={() => setFilter("all")}>
+      <button
+        className={filter === "all" ? "current" : ""}
+        style={{ zIndex: 1 }}
+        onClick={() => setFilter("all")}
+      >
         All
       </button>
-      <button style={{ zIndex: 1 }} onClick={() => setFilter("Music Video")}>
+      <button
+        className={filter === "Music Video" ? "current" : ""}
+        style={{ zIndex: 1 }}
+        onClick={() => setFilter("Music Video")}
+      >
         Music Videos
       </button>
-      <button style={{ zIndex: 1 }} onClick={() => setFilter("Commercial")}>
+      <button
+        className={filter === "Commercial" ? "current" : ""}
+        style={{ zIndex: 1 }}
+        onClick={() => setFilter("Commercial")}
+      >
         Commercials
       </button>
-      <button style={{ zIndex: 1 }} onClick={() => setFilter("fiction")}>
+      <button
+        className={filter === "fiction" ? "current" : ""}
+        style={{ zIndex: 1 }}
+        onClick={() => setFilter("fiction")}
+      >
         Fiction
       </button>
-      <button style={{ zIndex: 1 }} onClick={() => setFilter("2ad")}>
+      <button
+        className={filter === "2ad" ? "current" : ""}
+        style={{ zIndex: 1 }}
+        onClick={() => setFilter("2ad")}
+      >
         2nd AD
       </button>
     </FilterButtonContainer>
