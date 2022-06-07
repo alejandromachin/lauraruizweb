@@ -1,11 +1,10 @@
 import { useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
+
 import ContactMenu from "../ContactMenu/ContactMenu";
 import FilterMenu from "../FilterMenu/FilterMenu";
 
 const InfoCard = () => {
   const showMenu = useSelector((state) => state.menu.showMenu);
-  const { pathname } = useLocation();
 
   return (
     <div className="infoCard-totalHeight">
@@ -20,7 +19,7 @@ const InfoCard = () => {
       </div>
       <div>
         <ContactMenu />
-        {pathname === "/home" ? <FilterMenu /> : ""}
+        <FilterMenu />
       </div>
     </div>
   );
