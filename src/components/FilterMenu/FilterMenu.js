@@ -9,7 +9,7 @@ const FilterMenu = () => {
   };
 
   const filter = useSelector((state) => state.projectsFilter.filter);
-  console.log(filter);
+
   return (
     <FilterButtonContainer>
       <button
