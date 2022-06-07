@@ -20,7 +20,7 @@ const InfoCard = () => {
       </div>
       <div>
         <ContactMenu />
-        {pathname === "/home" ? <FilterMenu /> : ""}
+        <FilterMenu />
       </div>
     </div>
   );
