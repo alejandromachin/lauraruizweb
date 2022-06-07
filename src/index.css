@@ -74,10 +74,18 @@ a:active {
   }
 }
 
+.infoCard-totalHeight {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 .infoCard-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   transition: 0.5s;
 }
 

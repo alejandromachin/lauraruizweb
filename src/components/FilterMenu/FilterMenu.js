@@ -9,7 +9,7 @@ const FilterMenu = () => {
   };
 
   const filter = useSelector((state) => state.projectsFilter.filter);
-  console.log(filter);
+
   return (
     <FilterButtonContainer>
       <button
@@ -20,18 +20,18 @@ const FilterMenu = () => {
         All
       </button>
       <button
-        className={filter === "Music Video" ? "current" : ""}
-        style={{ zIndex: 1 }}
-        onClick={() => setFilter("Music Video")}
-      >
-        Music Videos
-      </button>
-      <button
         className={filter === "Commercial" ? "current" : ""}
         style={{ zIndex: 1 }}
         onClick={() => setFilter("Commercial")}
       >
         Commercials
+      </button>
+      <button
+        className={filter === "Music Video" ? "current" : ""}
+        style={{ zIndex: 1 }}
+        onClick={() => setFilter("Music Video")}
+      >
+        Music Videos
       </button>
       <button
         className={filter === "fiction" ? "current" : ""}

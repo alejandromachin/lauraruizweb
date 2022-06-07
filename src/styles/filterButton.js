@@ -7,8 +7,7 @@ const FilterButtonContainer = styled.div`
   gap: 10px;
   padding-left: 20px;
   margin-top: 20px;
-  z-index: 100;
-
+  z-index: 1000;
   .current {
     color: #000;
     border: 1px solid #000;
@@ -17,7 +16,10 @@ const FilterButtonContainer = styled.div`
 
   button,
   button:active {
-    font-size: 12px;
+    z-index: 1000;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,6 +28,7 @@ const FilterButtonContainer = styled.div`
     border-radius: 5px;
     background-color: #d7c9e0;
     transition: 0.4s;
+    padding: 10px;
   }
   :hover > button:not(:hover) {
     opacity: 0.2;
