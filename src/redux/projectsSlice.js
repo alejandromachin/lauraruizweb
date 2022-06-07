@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import projects from "../data/projects";
 
 const projectsSlice = createSlice({
   name: "projects",
@@ -10,7 +11,7 @@ const projectsSlice = createSlice({
       state.projects = action.payload;
     },
     filterProjects: (state, action) => {
-      state.projects = state.projects.filter(
+      state.projects = projects.filter(
         (project) => project.category === action.payload
       );
     },
