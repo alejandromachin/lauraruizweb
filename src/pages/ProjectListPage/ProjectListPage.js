@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import ProjectList from "../../components/ProjectList/ProjectList";
-import projects from "../../data/projects";
+
 import { showMenuActionCreator } from "../../redux/menuSlice";
 
 const ProjectListPage = () => {
+  const projects = useSelector((state) => state.projects.projects);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(showMenuActionCreator());

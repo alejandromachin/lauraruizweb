@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProjectListContainer = styled.div`
   height: 100vh;
-  width: 75vw;
+  width: 70vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,6 +12,7 @@ export const ProjectListContainer = styled.div`
   justify-content: flex-end;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  margin-left: 20px;
   padding: 40px;
 
   ::-webkit-scrollbar {
