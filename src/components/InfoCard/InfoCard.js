@@ -18,8 +18,10 @@ const InfoCard = () => {
           to flourish.
         </p>
       </div>
-      <ContactMenu />
-      {pathname === "/home" ? <FilterMenu /> : ""}
+      <div>
+        <ContactMenu />
+        {pathname === "/home" ? <FilterMenu /> : ""}
+      </div>
     </div>
   );
 };
