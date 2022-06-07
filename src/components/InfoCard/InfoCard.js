@@ -8,7 +8,7 @@ const InfoCard = () => {
   const { pathname } = useLocation();
 
   return (
-    <div>
+    <div className="infoCard-totalHeight">
       <div className={showMenu ? "infoCard-container" : "hidden"}>
         <h1 className="infoCard-container__title">Laura Ruiz Penacho</h1>
         <p className="infoCard-container__text">
