@@ -1,11 +1,19 @@
 import { useDispatch, useSelector } from "react-redux";
-import { setFilterActionCreator } from "../../redux/projectsFilterSlice";
+import projects from "../../data/projects";
+
+import {
+  filterProjectsActionCreator,
+  showAllProjectsActionCreator,
+} from "../../redux/projectsSlice";
 import FilterButtonContainer from "../../styles/filterButton";
 
 const FilterMenu = () => {
   const dispatch = useDispatch();
   const setFilter = (filter) => {
-    dispatch(setFilterActionCreator(filter));
+    dispatch(filterProjectsActionCreator(filter));
+  };
+  const showAllProjects = () => {
+    dispatch(showAllProjectsActionCreator(projects));
   };
 
   const filter = useSelector((state) => state.projectsFilter.filter);
@@ -15,7 +23,7 @@ const FilterMenu = () => {
       <button
         className={filter === "all" ? "current" : ""}
         style={{ zIndex: 1 }}
-        onClick={() => setFilter("all")}
+        onClick={() => showAllProjects()}
       >
         All
       </button>

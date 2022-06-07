@@ -1,4 +1,3 @@
-//create a react toolkit slice to handle the projects
 import { createSlice } from "@reduxjs/toolkit";
 
 const projectsSlice = createSlice({
@@ -15,12 +14,16 @@ const projectsSlice = createSlice({
         (project) => project.category === action.payload
       );
     },
+    showAllProjects: (state, action) => {
+      state.projects = action.payload;
+    },
   },
 });
 
 export const {
   setProjects: setProjectsActionCreator,
-  filterProjects: setFilterProjects,
+  filterProjects: filterProjectsActionCreator,
+  showAllProjects: showAllProjectsActionCreator,
 } = projectsSlice.actions;
 
 export default projectsSlice.reducer;
