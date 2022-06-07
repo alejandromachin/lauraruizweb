@@ -7,8 +7,7 @@ const FilterButtonContainer = styled.div`
   gap: 10px;
   padding-left: 20px;
   margin-top: 20px;
-  z-index: 100;
-
+  z-index: 1000;
   .current {
     color: #000;
     border: 1px solid #000;
@@ -17,6 +16,8 @@ const FilterButtonContainer = styled.div`
 
   button,
   button:active {
+    z-index: 1000;
+
     font-size: 12px;
     display: flex;
     flex-direction: row;

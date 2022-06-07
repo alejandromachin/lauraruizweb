@@ -78,6 +78,7 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   transition: 0.5s;
 }
 

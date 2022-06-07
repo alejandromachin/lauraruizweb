@@ -22,13 +22,13 @@ const ProjectsContainer = styled.div`
 
   .smallImage {
     transition: 1s;
-    z-index: 1;
+
     width: ${smallImage.width};
     /* height: ${smallImage.height}; */
   }
   .mediumImage {
     transition: 1s;
-    z-index: 1;
+
     width: ${mediumImage.width};
     /* height: ${mediumImage.height}; */
   }

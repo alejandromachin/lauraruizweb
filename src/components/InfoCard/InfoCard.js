@@ -8,14 +8,16 @@ const InfoCard = () => {
   const { pathname } = useLocation();
 
   return (
-    <div className={showMenu ? "infoCard-container" : "hidden"}>
-      <h1 className="infoCard-container__title">Laura Ruiz Penacho</h1>
-      <p className="infoCard-container__text">
-        As an assistant <br />
-        director, I enable
-        <br /> the creative team <br />
-        to flourish.
-      </p>
+    <div>
+      <div className={showMenu ? "infoCard-container" : "hidden"}>
+        <h1 className="infoCard-container__title">Laura Ruiz Penacho</h1>
+        <p className="infoCard-container__text">
+          As an assistant <br />
+          director, I enable
+          <br /> the creative team <br />
+          to flourish.
+        </p>
+      </div>
       <ContactMenu />
       {pathname === "/home" ? <FilterMenu /> : ""}
     </div>
